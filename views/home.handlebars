@@ -1,0 +1,10 @@
+<h1>Posts</h1>
+<a href="/"><button>Voltar a home</button></a>
+<ul>
+    {{#each posts}}
+        <h3>{{title}}</h3> 
+        <small>{{id}}</small>
+        <p>{{content}}</p>
+        <a href="/delete/{{id}}"><button>Deletar</button></a>
+    {{/each}}
+</ul>

@@ -1,0 +1,1 @@
+Projeto com um CRD utilizando express, mysql, handlebars e sequelize.
