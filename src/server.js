@@ -30,7 +30,6 @@ app.get('/posts', async (req, res) => {
         const all = await Post.findAll()
         res.render('home', {posts: all})
 
-
     } catch (err) {
         res.status(500).send(err)
     }
