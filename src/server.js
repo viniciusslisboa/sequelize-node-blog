@@ -35,8 +35,6 @@ app.get('/posts', async (req, res) => {
         res.status(500).send(err)
     }
     
-    
-    
 })
 
 app.post('/add', (req, res) => {
@@ -52,7 +50,8 @@ app.post('/add', (req, res) => {
                 title: title,
                 content: content
                 })
-                res.redirect('/redirect')
+//               
+                res.redirect('/posts')
         }
     } catch (err) {
         res.status(500).send(err)
@@ -70,9 +69,6 @@ app.get('/delete/:id', async (req, res) => {
     }
 })
 
-app.get('/redirect', (req, res) => {
-    res.redirect('/posts')
-})
 
 // start server port 
 const port = 2433
