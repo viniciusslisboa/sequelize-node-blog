@@ -1,9 +1,7 @@
 <h1 align="center">
-    <img alt="Node API" src="./assets/nodejs-icon.svg"  width="80px" >
-    <h2 align="center">Blog API </h2>
+    <img alt="Node API" src="./assets/nodejsicon.svg"  width="80px" >
 </h1>
-
-
+<h2 align="center">Blog API </h2>
 # Sobre
 
 => Objetivo da API é simular um blog que utiliza banco de dados, utilizei o mysql no Node.js com o sequelize.
