@@ -14,7 +14,7 @@
 
 => No back-end, como foi dito acima utilizei Node.js junto do express para criar as rotas http.
 
-=> Instanciei o handlebars, desabilitando algumas configurações padrão para facilitar a comunicação entre back e front. (Utilizei handlebars apenas para   finalidade de estudos).
+=> Instanciei o handlebars, desabilitando algumas configurações padrão para facilitar a comunicação entre back e front. (Utilizei handlebars apenas para finalidade de estudos).
 
 => Configurei as rotas e utilizei a exportação de modulos do ES6.
 
